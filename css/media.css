@@ -1,0 +1,328 @@
+@media only screen and (min-width: 631px) and (max-width: 1024px) {
+  header {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-pack: distribute !important;
+    justify-content: space-around !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative !important; }
+  nav {
+    width: 100% !important; }
+  ul {
+    width: 100% !important; }
+  ul li {
+    display: block !important;
+    width: 100% !important;
+    line-height: 40px !important;
+    padding: 0px 0px !important;
+    text-align: center !important; }
+  li:hover {
+    width: 100% !important;
+    background-color: black !important; }
+    li:hover a {
+      color: white !important; }
+  .btn0 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px !important;
+    height: 40px !important; }
+  .txtBlock {
+    display: none !important; }
+  .textBlock {
+    width: 400px !important;
+    height: 150px !important;
+    font-size: 25px !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important; }
+  #sec2 .img {
+    display: none !important; }
+  #sec2 .imgBlock {
+    width: 100% !important; }
+  .infoBlock {
+    max-height: 110px !important;
+    margin-left: 0px !important; }
+  .text-div {
+    overflow: hidden !important;
+    max-height: 150px !important;
+    border-bottom: 2px solid yellowgreen; }
+  .priceBlock {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+    height: 180px !important; }
+  .blockes {
+    margin-top: 25px; }
+  .blockPhoto1, .blockPhoto2, .blockPhoto3 {
+    width: 30% !important;
+    height: 500px !important; }
+  .arrowLeft {
+    margin-left: calc(100% - 50%) !important; }
+  .button {
+    padding: 15px 30px !important;
+    margin-top: 10px !important;
+    margin-left: 18px !important; }
+  #sec3 {
+    margin-top: 100px !important; }
+    #sec3 .articles {
+      width: 100% !important;
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -webkit-box-orient: vertical !important;
+      -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+      flex-direction: column !important;
+      -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+      align-items: center !important;
+      margin-top: 150px !important; }
+      #sec3 .articles .block1 {
+        height: 340px !important; }
+        #sec3 .articles .block1 .foto {
+          height: 180px !important; }
+      #sec3 .articles .block1, #sec3 .articles .block2 {
+        width: 40% !important; }
+      #sec3 .articles .right {
+        width: 80% !important;
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+        margin-top: 50px; }
+        #sec3 .articles .right .block {
+          margin-top: 0px !important; }
+          #sec3 .articles .right .block button {
+            padding: 7px 30px; }
+      #sec3 .articles .text-div {
+        overflow: scroll !important; }
+  #sec4 {
+    margin-top: 150px !important; }
+    #sec4 .left {
+      overflow: scroll !important;
+      max-height: 350px !important; }
+    #sec4 .right {
+      margin-left: 40px !important; }
+  #sec5 {
+    margin-top: 25px; }
+    #sec5 .students {
+      display: none !important; }
+    #sec5 .blocksPhotos {
+      margin-top: 50px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      #sec5 .blocksPhotos .left {
+        width: 80% !important;
+        margin-top: 80px; }
+        #sec5 .blocksPhotos .left .blockImg {
+          height: 200px !important; }
+        #sec5 .blocksPhotos .left .imgInfo {
+          width: 100% !important; }
+      #sec5 .blocksPhotos .center {
+        display: none !important; }
+      #sec5 .blocksPhotos .right {
+        width: 80% !important;
+        margin-top: 0px !important; }
+        #sec5 .blocksPhotos .right .blockImg {
+          height: 200px !important; }
+    #sec5 .marginMediaP {
+      margin-top: 0px !important; }
+  footer {
+    margin-top: 120px; } }
+
+@media only screen and (min-width: 1024px) {
+  #sec2 .arrowLeft {
+    margin-left: calc(100% - 11%) !important; }
+  #sec4 {
+    margin-top: 100px; }
+    #sec4 .right {
+      margin-left: 40px !important; }
+    #sec4 .left {
+      max-height: 350px !important; }
+      #sec4 .left .questionBlock {
+        padding-top: 0px !important;
+        padding-bottom: 25px !important; }
+  footer {
+    margin-top: 50px; } }
+
+@media only screen and (max-width: 631px) {
+  header {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-pack: distribute !important;
+    justify-content: space-around !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative !important; }
+  nav {
+    width: 100% !important; }
+  ul {
+    width: 100% !important; }
+  ul li {
+    display: block !important;
+    width: 100% !important;
+    line-height: 40px !important;
+    padding: 0px 0px !important;
+    text-align: center !important; }
+  li:hover {
+    width: 100% !important;
+    background-color: black !important; }
+    li:hover a {
+      color: white !important; }
+  .btn0 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px !important;
+    height: 40px !important; }
+  .txtBlock {
+    display: none !important; }
+  .textBlock {
+    width: 400px !important;
+    height: 150px !important;
+    font-size: 25px !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important; }
+  #sec2 .img {
+    display: none !important; }
+  #sec2 .imgBlock {
+    width: 100% !important; }
+  .infoBlock {
+    max-height: 110px !important;
+    margin-left: 0px !important;
+    overflow: hidden !important; }
+  .text-div {
+    overflow: hidden !important;
+    max-height: 150px !important;
+    border-bottom: 2px solid yellowgreen; }
+  .priceBlock {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+    height: 180px !important; }
+  .blockes {
+    margin-top: 25px; }
+  .blockPhoto1, .blockPhoto2, .blockPhoto3 {
+    width: 30% !important;
+    height: 500px !important; }
+  .arrowLeft {
+    margin-left: calc(100% - 50%) !important; }
+  .button {
+    padding: 15px 30px !important;
+    margin-top: 10px !important;
+    margin-left: 18px !important; }
+  #sec3 {
+    margin-top: 140px !important; }
+    #sec3 .articles {
+      width: 100% !important;
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -webkit-box-orient: vertical !important;
+      -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+      flex-direction: column !important;
+      -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+      align-items: center !important; }
+      #sec3 .articles .block1 {
+        height: 340px !important; }
+        #sec3 .articles .block1 .foto {
+          height: 180px !important; }
+      #sec3 .articles .block1, #sec3 .articles .block2 {
+        width: 40% !important; }
+      #sec3 .articles .right {
+        width: 80% !important;
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        width: 100% !important;
+        -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+        justify-content: space-between !important;
+        margin-top: 50px; }
+        #sec3 .articles .right .block {
+          margin-top: 0px !important; }
+          #sec3 .articles .right .block button {
+            padding: 7px 30px; }
+      #sec3 .articles .text-div {
+        overflow: scroll !important; }
+  #sec4 {
+    margin-top: 120px !important; }
+    #sec4 .left {
+      overflow: scroll !important;
+      max-height: 350px !important; }
+    #sec4 .right {
+      margin-left: 40px !important; }
+  #sec5 {
+    margin-top: 25px; }
+    #sec5 .students {
+      display: none !important; }
+    #sec5 .blocksPhotos {
+      margin-top: 50px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      #sec5 .blocksPhotos .left {
+        width: 80% !important;
+        margin-top: 80px; }
+        #sec5 .blocksPhotos .left .blockImg {
+          height: 200px !important; }
+        #sec5 .blocksPhotos .left .imgInfo {
+          width: 100% !important; }
+      #sec5 .blocksPhotos .center {
+        display: none !important; }
+      #sec5 .blocksPhotos .right {
+        width: 80% !important;
+        margin-top: 0px !important; }
+        #sec5 .blocksPhotos .right .blockImg {
+          height: 200px !important; }
+    #sec5 .marginMediaP {
+      margin-top: 0px !important; }
+  footer {
+    margin-top: 120px; } }
